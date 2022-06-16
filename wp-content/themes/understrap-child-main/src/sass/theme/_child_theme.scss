@@ -1,0 +1,76 @@
+
+p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(1.6rem, 3.47vw, 2.52rem);
+    font-weight: 800;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.entry-header {
+    border-bottom: 10px solid $red;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .675)), url('/wp-content/uploads/2022/06/mast-bg-short.jpg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.complete-logistics {
+    background-image: url("/wp-content/uploads/2022/06/black_pattern_bg.png");
+}
+
+.complete-logistics-trucks {
+    background-image: url("/wp-content/uploads/2022/06/black_pattern_bg.png");
+}
+
+/* STX logistics difference section */
+.custom-solutions {
+    background-image: linear-gradient(to bottom,rgba(19,19,19,.75),rgba(19,19,19,.85)), url("/wp-content/uploads/2022/06/m1.jpg");
+}
+
+.quality-service {
+    background-image: linear-gradient(to bottom,rgba(19,19,19,.75),rgba(19,19,19,.85)), url("/wp-content/uploads/2022/06/m2.jpg");
+}
+
+.expanded-offerings {
+    background-image: linear-gradient(to bottom,rgba(19,19,19,.75),rgba(19,19,19,.85)), url("/wp-content/uploads/2022/06/m3.jpg");
+}
+
+.entry-footer {
+    background-color: $red;
+}
+
+/* gravity forms */
+#gform_wrapper_1 {
+    display: block;
+}
+
+body .gform_wrapper .gform_footer input[type=submit] {
+    background-color: $gray;
+    border: none;
+    border-radius: 6px;
+    color: $white;
+    font-family: 'Oswald', sans-serif;
+    padding: 8px 12px;
+
+    /* centering it */
+    position: relative;
+    margin-left: 45%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+
+
+
