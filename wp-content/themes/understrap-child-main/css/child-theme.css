@@ -15601,7 +15601,9 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 p {
-  font-family: "proxima-nova", sans-serif;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 17px;
   font-weight: 300;
 }
