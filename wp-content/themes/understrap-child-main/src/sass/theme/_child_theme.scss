@@ -49,8 +49,11 @@ h2 {
     background-color: $red;
 }
 
-/* gravity forms button */
+#comprehensive {
+    text-align: left;
+}
 
+/* gravity forms button */
 body .gform_wrapper .gform_footer input[type=submit] {
     background-color: $gray;
     border: none;

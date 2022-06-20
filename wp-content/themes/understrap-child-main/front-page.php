@@ -42,8 +42,8 @@ get_header();
                 </div>
                 
                 <div class="col-md-6 p-5">
-                    <div class="row">
-                        <h2>Complete Logistics Services</h2>
+                    <div class="row" id="comprehensive">
+                        <h2>Comprehensive Logistics Services</h2>
                         
                         <p class="lead">Our logistics experts offer complete Shipment Management Services for your business. From Point A to Point B, we specialize in offering our customers creative & cost-effective solutions.</p>
                     </div>

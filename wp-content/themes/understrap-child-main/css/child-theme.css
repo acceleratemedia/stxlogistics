@@ -15651,6 +15651,10 @@ h2, .h2 {
   background-color: #bd2e2a;
 }
 
+#comprehensive {
+  text-align: left;
+}
+
 /* gravity forms button */
 body .gform_wrapper .gform_footer input[type=submit] {
   background-color: #131313;
