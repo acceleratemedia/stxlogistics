@@ -129,14 +129,9 @@ function fix_svg() {
 }
 add_action( 'admin_head', 'fix_svg' );
 
-/* Gravity Forms scripts were called after theme's */
-add_filter('gform_init_scripts_footer', 'init_scripts');
-function init_scripts() {
-    return true;
-}
-
 /* no front page title */
 if ( !is_front_page() )
 {
       add_filter( 'the_title', '__return_false' );
 }
+

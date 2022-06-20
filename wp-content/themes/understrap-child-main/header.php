@@ -18,6 +18,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>STX Logistics</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="icon" href="wp-content/uploads/2022/06/stx-logistics-logo-SILVER.svg" type="image/x-icon" />
 	<?php wp_head(); ?>
