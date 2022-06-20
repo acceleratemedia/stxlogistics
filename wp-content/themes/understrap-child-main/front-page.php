@@ -21,7 +21,7 @@ get_header();
     <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
         <header class="entry-header bg-cover shadow-lg py-5">
-                <a href="/"><img width="440" class="img-fluid d-block mx-auto pb-5" src="wp-content/uploads/2022/06/stx-logistics-logo-SILVER.svg"></a>
+                <a href="/"><img width="590" class="img-fluid d-block mx-auto pb-5" src="wp-content/uploads/2022/06/stx-logistics-logo-SILVER.svg"></a>
             
             <div class="row no-gutters text-white text-center pb-5 px-3">
                 <div class="col-md-10 offset-md-1">
