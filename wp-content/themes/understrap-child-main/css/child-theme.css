@@ -15663,11 +15663,6 @@ body .gform_wrapper .gform_footer input[type=submit] {
   color: #ffffff;
   font-family: "Oswald", sans-serif;
   padding: 8px 12px;
-  /* centering it */
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .has-blue-color,
