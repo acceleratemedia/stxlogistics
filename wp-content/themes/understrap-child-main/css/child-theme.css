@@ -15600,11 +15600,9 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
-body {
+p {
   font-family: "Proxima Nova", sans-serif;
   font-size: 17px;
-  padding: 0;
-  margin: 0;
 }
 
 h1, .h1 {
@@ -15653,19 +15651,23 @@ h2, .h2 {
   background-color: #bd2e2a;
 }
 
-/* gravity forms 
+/* gravity forms */
 #gform_wrapper_1 {
-    display: inline-block;
+  display: block;
 }
-*/
-/* gravity form button */
+
 body .gform_wrapper .gform_footer input[type=submit] {
   background-color: #131313;
   border: none;
   border-radius: 6px;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
-  padding: 8px 16px;
+  padding: 8px 12px;
+  /* centering it */
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .has-blue-color,
