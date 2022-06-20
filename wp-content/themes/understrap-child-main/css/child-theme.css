@@ -15603,11 +15603,11 @@ figure.woocommerce-product-gallery__wrapper {
 p {
   font-family: "Proxima Nova", sans-serif;
   font-size: 17px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .lead {
-  font-weight: normal;
+  font-weight: 300;
 }
 
 h1, .h1 {
