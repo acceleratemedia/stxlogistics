@@ -15651,11 +15651,7 @@ h2, .h2 {
   background-color: #bd2e2a;
 }
 
-/* gravity forms */
-#gform_wrapper_1 {
-  display: block;
-}
-
+/* gravity forms button */
 body .gform_wrapper .gform_footer input[type=submit] {
   background-color: #131313;
   border: none;

@@ -114,7 +114,7 @@ get_header();
                     <h2>Looking to get started with STX Logistics?</h2>
                     <p>Contact us at <a class="text-white text-decoration-none"  href="mailto:info@stxlogistics.net?subject=Looking to get started with STX Logistics">info@stxlogistics.net</a> to speak with our transportation experts about your specific situation or simply request a quote for a project with the form below.</p>
 
-                    <?php gravity_form( 1, false, false, false, '', true, ); ?>
+                    <?php gravity_form( 2, false, false, false, '', true, ); ?>
 
                 </div>
             </div>
