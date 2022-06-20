@@ -29,20 +29,3 @@ node_modules/
 *.sqlite
 
 **/.DS_Store
-
-.sass-cache
-
-bower_components
-
-node_modules
-
-/dist
-
-/dist-product
-
-npm-debug.log
-
-/vendor/
-© 2022 GitHub, Inc.
-Terms
-Privacy
