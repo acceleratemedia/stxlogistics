@@ -107,13 +107,13 @@ get_header();
         </div><!-- .entry-content -->
 
         <footer class="entry-footer">
-            <div class="row no-gutters text-center bg-primary-gradient py-5 px-3">
-                <div class="col-md-8 offset-md-2 text-white">
+            <div class="row no-gutters bg-primary-gradient py-5 px-3">
+                <div class="col-md-8 offset-md-2 text-white text-center">
                     <h1>Looking to get started with STX Logistics?</h1>
                     <p>Contact us at <a class="text-white text-decoration-none"  href="mailto:info@stxlogistics.net?subject=Looking to get started with STX Logistics">info@stxlogistics.net</a> to speak with our transportation experts about your specific situation or simply request a quote for a project with the form below.</p>
-
+                </div>
+                <div class="col-md-8 offset-md-2 text-white">
                     <?php gravity_form( 2, false, false, false, '', true, ); ?>
-
                 </div>
             </div>
         </footer><!-- .entry-footer -->
