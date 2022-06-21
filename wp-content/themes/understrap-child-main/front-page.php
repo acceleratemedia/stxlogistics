@@ -25,9 +25,9 @@ get_header();
             
             <div class="row no-gutters text-white text-center pb-5 pt-3 justify-content-center">
                 <div class="col-md-8">
-                    <h1 class="text-uppercase">Your Asset-Based 3rd Party Logistics Company</h1>
+                    <h1 class="text-uppercase">Your Asset-Based Third Party Logistics Company</h1>
 
-                    <p class="lead mb-5">As a shipper, you have so many choices in the transportation industry. However, not all are equal. Industry knowledge, empathy, and competency are critical when it comes to having a successful transportation solution. Here at STX Logistics, we pride ourselves in not only partnering with the right carriers to ensure success, but we also look to create innovative and tailored solutions for our clients supply chain needs.</p>
+                    <p class="lead mb-5">As a shipper, you have so many choices in the transportation industry. However, not all are equal. Industry knowledge, empathy, and competency are critical when it comes to having a successful transportation solution. Here at STX Logistics, we pride ourselves in not only partnering with the right carriers to ensure success, but we also look to create innovative and tailored solutions for our clients' supply chain needs.</p>
                     
                     <p><a class="btn btn-lg btn-primary text-uppercase" href="#more">Learn More</a></p>
                 </div>
@@ -45,7 +45,7 @@ get_header();
                     <div class="row" id="comprehensive">
                         <h2>Comprehensive Logistics Services</h2>
                         
-                        <p class="lead">Our logistics experts offer complete Shipment Management Services for your business. From Point A to Point B, we specialize in offering our customers creative & cost-effective solutions.</p>
+                        <p class="lead">Our logistics experts offer complete Shipment Management Services for your business. From Point A to Point B, we specialize in offering our customers creative and cost-effective solutions.</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ get_header();
                     <div class="inner">
                         <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/open-heavy-truck.svg" alt="open heavy truck">
                         <h2 class="mt-5 px-sm-2">OPEN DECK / HEAVY HAUL</h2>
-                        <p class="larger-p">STX Logistics has access to hundreds of open-deck trailers of varying styles in order to service any type of need. Heavy haul and over-dimensional shipments are everyday task that we excel at.</p>
+                        <p class="larger-p">STX Logistics has access to hundreds of open-deck trailers of varying styles in order to service any type of need. Heavy haul and over-dimensional shipments are everyday tasks that we excel at.</p>
                     </div>
                 </div>
                 
@@ -72,7 +72,7 @@ get_header();
                     <div class="inner">
                         <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/fridge-van.svg" alt="Complete Logistics Services">
                         <h2 class="mt-5">REFRIGERATED</h2>
-                        <p class="larger-p">STX Logistics understands the importance of your climate controlled products and has the knowledge and partners to ensure successful transportation to destination. </p>
+                        <p class="larger-p">STX Logistics understands the importance of your climate-controlled products and has the knowledge and partners to ensure successful transportation to destination. </p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ get_header();
                 <div class="col-md-4 bg-cover custom-solutions p-5">
                     <div class="inner">
                         <h2>Custom Solutions</h2>
-                        <p class="lead">Our team members have years of experience in all facets of 3rd party logistics and asset based trucking, which allows us to offer ideas, programs, and solutions that actually work for your supply chain needs.</p>
+                        <p class="lead">Our team members have years of experience in all facets of third-party logistics and asset-based trucking, which allows us to offer ideas, programs, and solutions that actually work for your supply chain needs.</p>
                     </div>
                 </div>
                 
@@ -100,7 +100,7 @@ get_header();
                 <div class="col-md-4 bg-cover expanded-offerings p-5">
                     <div class="inner">
                         <h2>Expanded Offerings</h2>
-                        <p class="lead">With our asset divisions we are able to offer complete solutions in moving railcar, windfarm, and many other heavy-haul or oversized projects. We also have the capabilities to fabricate trailers for custom one-off shipments or to provide warehousing/outdoor storage.</p>
+                        <p class="lead">Our asset divisions enable us to offer complete solutions in moving railcar, windfarm, and other heavy-haul or oversized projects. We also have the capabilities to fabricate trailers for custom one-off shipments or to provide warehousing/outdoor storage.</p>
                     </div>
                 </div>
             </div>
