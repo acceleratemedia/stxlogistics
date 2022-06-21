@@ -23,8 +23,8 @@ get_header();
         <header class="entry-header bg-cover shadow-lg py-5">
                 <a href="/"><img width="590" class="img-fluid d-block mx-auto pt-3 pb-5" src="wp-content/uploads/2022/06/stx-logistics-logo-SILVER.svg"></a>
             
-            <div class="row no-gutters text-white text-center pb-5 px-3">
-                <div class="col-md-10 offset-md-1">
+            <div class="row no-gutters text-white text-center pb-5 pt-3 justify-content-center">
+                <div class="col-md-8">
                     <h1 class="text-uppercase">Your Asset-Based 3rd Party Logistics Company</h1>
 
                     <p class="lead mb-5">As a shipper, you have so many choices in the transportation industry. However, not all are equal. Industry knowledge, empathy, and competency are critical when it comes to having a successful transportation solution. Here at STX Logistics, we pride ourselves in not only partnering with the right carriers to ensure success, but we also look to create innovative and tailored solutions for our clients supply chain needs.</p>
@@ -80,7 +80,7 @@ get_header();
             
             <div class="row no-gutters text-center">
                 <div class="col-md-12 bg-secondary shadow-lg py-3" style="z-index: 2;">
-                    <h2 id="more" class="text-uppercase m-0">The STX Logistics Difference</h2>
+                    <h1 id="more" class="text-uppercase m-0">The STX Logistics Difference</h1>
                 </div>
                 
                 <div class="col-md-4 bg-cover custom-solutions p-5">
