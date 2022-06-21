@@ -3,24 +3,33 @@ p {
     font-weight: 300;
     font-style: normal;
     font-size: 17px;
-    font-weight: 300;
 }
 
-.lead {
+.larger-p {
+    font-family: proxima-nova,sans-serif;
     font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
 }
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: clamp(1.6rem, 3.47vw, 2.52rem);
+  font-size: 2em;
   font-weight: 700;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 700;
 }
+
+.lead { font-weight: 300; }
+
+a.btn { 
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;
+    }
 
 .entry-header {
     border-bottom: 10px solid $red;
@@ -56,6 +65,10 @@ h2 {
     background-color: $red;
 }
 
+.truck-image {
+    max-width: 19em;
+}
+
 #comprehensive {
     text-align: left;
 }
@@ -68,7 +81,6 @@ body .gform_wrapper .gform_footer input[type=submit] {
     color: $white;
     font-family: 'Oswald', sans-serif;
     padding: 8px 12px;
-
     position: relative;
     margin-left: 45%;
     text-align: center;

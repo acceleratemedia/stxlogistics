@@ -50,33 +50,31 @@ get_header();
                 </div>
             </div>
 
-            <div class="row complete-logistics-trucks no-gutters d-flex align-items-center text-center text-md-left pb-5">
+            <div class="row complete-logistics-trucks no-gutters d-flex align-items-top text-center text-md-left pb-5">
 
                 <div class="col-md-4 p-5">
                     <div class="inner">
-                        <img class="img-fluid shadow-lg" src="/wp-content/uploads/2022/06/open-heavy-truck.svg" alt="open heavy truck">
+                        <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/open-heavy-truck.svg" alt="open heavy truck">
                         <h2 class="mt-5 px-sm-2">OPEN DECK / HEAVY HAUL</h2>
-                        <p>STX Logistics has access to hundreds of open-deck trailers of varying styles in order to service any type of need. Heavy haul and over-dimensional shipments are everyday task that we excel at.</p>
+                        <p class="larger-p">STX Logistics has access to hundreds of open-deck trailers of varying styles in order to service any type of need. Heavy haul and over-dimensional shipments are everyday task that we excel at.</p>
                     </div>
                 </div>
                 
                 <div class="col-md-4 p-5">
                     <div class="inner">
-                        <img class="img-fluid shadow-lg" src="/wp-content/uploads/2022/06/dry-van.svg" alt="dry van">
+                        <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/dry-van.svg" alt="dry van">
                         <h2 class="mt-5">DRY VAN</h2>
-                        <p>STX Logistics partners with only the best  48’ or 53’ dry van trailers and straight truck operators to accommodate your unique requirements.</p>
+                        <p class="larger-p">STX Logistics partners with only the best  48’ or 53’ dry van trailers and straight truck operators to accommodate your unique requirements.</p>
                     </div>
                 </div>
 
                 <div class="col-md-4 p-5">
                     <div class="inner">
-                        <img class="img-fluid shadow-lg" src="/wp-content/uploads/2022/06/fridge-van.svg" alt="Complete Logistics Services">
+                        <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/fridge-van.svg" alt="Complete Logistics Services">
                         <h2 class="mt-5">REFRIGERATED</h2>
-                        <p>STX Logistics understands the importance of your climate controlled products and has the knowledge and partners to ensure successful transportation to destination. </p>
+                        <p class="larger-p">STX Logistics understands the importance of your climate controlled products and has the knowledge and partners to ensure successful transportation to destination. </p>
                     </div>
                 </div>
-
-                <div class="col-md-1"></div>
             </div>
 
             
@@ -111,7 +109,7 @@ get_header();
         <footer class="entry-footer">
             <div class="row no-gutters text-center bg-primary-gradient py-5 px-3">
                 <div class="col-md-8 offset-md-2 text-white">
-                    <h2>Looking to get started with STX Logistics?</h2>
+                    <h1>Looking to get started with STX Logistics?</h1>
                     <p>Contact us at <a class="text-white text-decoration-none"  href="mailto:info@stxlogistics.net?subject=Looking to get started with STX Logistics">info@stxlogistics.net</a> to speak with our transportation experts about your specific situation or simply request a quote for a project with the form below.</p>
 
                     <?php gravity_form( 2, false, false, false, '', true, ); ?>
