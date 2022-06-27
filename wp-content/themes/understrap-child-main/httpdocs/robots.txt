@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://stxlogistics.net/sitemap_index.xml

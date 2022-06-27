@@ -70,7 +70,7 @@ get_header();
 
                 <div class="col-md-4 p-5">
                     <div class="inner">
-                        <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/fridge-van.svg" alt="Complete Logistics Services">
+                        <img class="img-fluid shadow-lg truck-image" src="/wp-content/uploads/2022/06/fridge-van.svg" alt="fridge van">
                         <h2 class="mt-5">REFRIGERATED</h2>
                         <p class="larger-p">STX Logistics understands the importance of your climate-controlled products and has the knowledge and partners to ensure successful transportation to destination. </p>
                     </div>
@@ -110,7 +110,7 @@ get_header();
             <div class="row no-gutters bg-primary-gradient py-5 px-3">
                 <div class="col-md-8 offset-md-2 text-white text-center">
                     <h1>Looking to get started with STX Logistics?</h1>
-                    <p>Contact us at <a class="text-white text-decoration-none"  href="mailto:info@stxlogistics.net?subject=Looking to get started with STX Logistics">info@stxlogistics.net</a> to speak with our transportation experts about your specific situation or simply request a quote for a project with the form below.</p>
+                    <p>Contact us at <a class="text-white text-decoration-none"  href="mailto:info@stxlogistics.net?subject=Looking to get started with STX Logistics" target="_blank" rel="noopener noreferrer">info@stxlogistics.net</a> to speak with our transportation experts about your specific situation or simply request a quote for a project with the form below.</p>
                 </div>
                 <div class="col-md-8 offset-md-2 text-white">
                     <?php gravity_form( 2, false, false, false, '', true, ); ?>

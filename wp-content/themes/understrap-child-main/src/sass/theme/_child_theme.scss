@@ -73,18 +73,6 @@ a.btn {
     text-align: left;
 }
 
-/* gravity forms confirmation */
-
-body #gform_confirmation_wrapper_2 {
-    text-align: center;
-    font-weight: 400;
-}
-
-body #gform_confirmation_wrapper_2 .gform_confirmation_message  {
-    font-size: 1.3em;
-    padding-top: 2em;
-}
-
 /* gravity forms button */
 body .gform_wrapper .gform_footer input[type=submit] {
     background-color: $gray;
@@ -97,8 +85,6 @@ body .gform_wrapper .gform_footer input[type=submit] {
     margin-left: 45%;
     text-align: center;
 }
-
-
 
 @media only screen and (max-width: 767px) {
     body .gform_wrapper .gform_footer input[type=submit] {
