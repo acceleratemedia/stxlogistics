@@ -1,31 +1,67 @@
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# This .gitignore file is written under the pretense that our strategy for 
+# git on Wordpress sites is to use a deploy strategy that will overwrite
+# all files currently on the server to avoid issues with merge conflicts.
+# As such, any files that may be updated on the server automatically are
+# ignored so those updates are not overwritten during deploys. Notes 
+# are included below on each section
+
+# Core
+# We allow Wordpress to auto-update so we want to avoid committing any core
+# files that may be updated
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/cache
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+# Some plugins edit this so we do not commit it so our deploys do not remove
+# any configuration that may have been done
 wp-config.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Uploads
 /wp-content/uploads/
-license.txt
-README.md
-.htaccess
 
-# ignore everything in the root except the "wp-content" directory.
-!wp-content/
-
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
-
-# ignore these plugins
-wp-content/plugins/hello.php
-
-# ignore specific themes
-wp-content/themes/twenty*/
-
-# ignore node dependency directories
-node_modules/
-
-# ignore log files and databases
+# Log files
 *.log
-*.sql
-*.sqlite
 
-**/.DS_Store
+# htaccess
+# Wordpress also auto-updates this
+/.htaccess
+
+# All plugins
+# Plugins automatically update too
+/wp-content/plugins/*
+
+# Ignore unneeded files
+.DS_Store
+local-xdebuginfo.php
+local-phpinfo.php
+.well-known
+local-by-flywheel-live-link-helper.php
+/wp-content/.htaccess
+/wp-content/wp-rocket-config
+/wp-content/ai1wm-backups
+/wp-content/advanced-cache.php
+/wp-content/db.php
+
+# Ignore node_modules which is used for npm/bootstrap
+node_modules
+
+# Frequently end up on production sites and should be ignored
+.php-ini
+.php-version
+.user.ini
